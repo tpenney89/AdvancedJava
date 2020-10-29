@@ -2,6 +2,7 @@ package tpenney.util;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.junit.Ignore; //per conversation adding @Ignore to remove SQL connection so circleci can run the tests
 import org.junit.Test;
 
 import java.sql.Connection;
