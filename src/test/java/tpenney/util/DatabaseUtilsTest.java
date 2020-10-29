@@ -15,28 +15,31 @@ import static org.junit.Assert.assertTrue;
  */
 public class DatabaseUtilsTest {
 
+    @Ignore
     @Test
     public void testGoodInitFile() throws Exception {
         DatabaseUtils.initializeDatabase(DatabaseUtils.initializationFile);
     }
 
+    @Ignore
     @Test
     public void testGetSessionFactory() throws Exception {
         SessionFactory sessionFactory = DatabaseUtils.getSessionFactory();
         Session session = sessionFactory.openSession();
         session.close();
     }
+    @Ignore
     @Test(expected = DatabaseInitializationException.class)
     public void testBadInitFile() throws Exception {
         DatabaseUtils.initializeDatabase("bogus");
     }
-
+    @Ignore
     @Test
     public void testGetConnection() throws Exception{
         Connection connection = DatabaseUtils.getConnection();
         assertNotNull("verify that we can get a connection ok",connection);
     }
-
+    @Ignore
     @Test
     public void testGetConnectionWorks() throws Exception{
         Connection connection = DatabaseUtils.getConnection();
