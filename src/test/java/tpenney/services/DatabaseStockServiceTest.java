@@ -4,6 +4,7 @@ import tpenney.model.StockData;
 import tpenney.model.StockQuote;
 import tpenney.util.DatabaseInitializationException;
 import tpenney.util.Interval;
+import org.junit.Ignore;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -31,7 +32,7 @@ public class DatabaseStockServiceTest extends DatabaseServiceTest {
         super.setUp();
         databaseStockService = ServiceFactory.getStockService();
     }
-
+@Ignore
     @Test
     public void testGetQuote() throws Exception {
         String symbol = "APPL";
@@ -39,7 +40,7 @@ public class DatabaseStockServiceTest extends DatabaseServiceTest {
         assertNotNull("Verify we can get a stock quote from the db", stockQuote);
         assertEquals("Make sure the symbols match", symbol, stockQuote.getSymbol());
     }
-
+@Ignore
     @Test
     public void testGetQuoteWithIntervalBasic() throws Exception {
         String symbol = "GOOG";
@@ -53,7 +54,7 @@ public class DatabaseStockServiceTest extends DatabaseServiceTest {
 
         assertFalse("verify stock quotes where returned", stockQuotes.isEmpty());
     }
-
+@Ignore
     @Test
     public void testGetQuoteWithinRangeDay() throws Exception {
 
@@ -70,7 +71,7 @@ public class DatabaseStockServiceTest extends DatabaseServiceTest {
         stockQuotes = databaseStockService.getQuote(symbol, fromCalendar, untilCalendar, Interval.MINUTE);
         assertEquals("got back expected number of stockquotes for one minute interval", 4, stockQuotes.size());
     }
-
+@Ignore
     @Test
     public void testGetQuoteWithinRangeMinute() throws Exception {
 
