@@ -1,0 +1,13 @@
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/services/ServiceFactoryTest.java
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/model/StockQueryTest.java
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/model/database/StockSymbolDAOTest.java
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/services/DatabaseServiceTest.java
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/model/database/PersonStocksDAOTest.java
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/services/DatabaseUserServiceTest.java
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/apps/stockquote/BasicStockQuoteApplicationTest.java
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/model/StockQuoteTest.java
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/model/database/PersonDAOTest.java
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/model/database/AbstractBaseDAOTest.java
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/model/database/QuoteDAOTest.java
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/util/DatabaseUtilsTest.java
+/Users/tpenney/StockQuotApp/src/test/java/tpenney/services/DatabaseStockServiceTest.java
